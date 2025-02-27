@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Chakra Petch", serif;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    min-height: 100vh;
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url(p.png);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+}*/
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #0a0a0a;
+    padding-bottom: 5px;
+}
+.education, .certifications, .skills {
+    margin-bottom: 20px;
+}
+.education p {
+    margin: 5px 0;
+}
+.certification {
+    background-image: url(p.png);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.certification:hover {
+    transform: scale(1.05);
+    background-image: url(p.png);
+}
+.skills-bar {
+    background-image: url(p.png);
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.skills {
+    height: 100%;
+    text-align: left;
+    padding-right: 200px;
+    color: rgb(250, 233, 233);
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 10px;
+
+}
+.html { 
+    width: 80%;
+    background: #091216;
+}
+.css {
+     width: 70%;
+     background: #060a0e; 
+    }
+.js { 
+    width: 50%;
+    background: #130e06;
+}
+.python { 
+    width: 60%; 
+    background: #0c0905; 
+}
+
